@@ -9,7 +9,7 @@ app.use("", productRouter);
 
 app.listen('7000', ()=> console.log('server running on 7000'))
 
-mongoose.connect('mongodb://localhost:27017/employee')
+mongoose.connect('mongodb+srv://2216128:8925020154@myprojectcluster.qvwk0.mongodb.net/?retryWrites=true&w=majority&appName=MyprojectCluster')
     .then(()=> console.log('database connected..'))
     .catch((err) => console.log(err))
 
