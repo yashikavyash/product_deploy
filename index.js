@@ -18,3 +18,5 @@ mongoose.connect('mongodb://localhost:27017/employee')
 app.get('/', (req, res)=>{
     res.send('server reacted...')
 })
+
+console.log("updated");
